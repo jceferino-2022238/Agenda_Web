@@ -33,7 +33,7 @@ body {
     position: absolute;
     width: max-content;
     height: max-content;
-    top: 102%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 50px;
@@ -45,9 +45,11 @@ body {
 
 .contacto {
     background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
     border: 8px solid rgb(176, 176, 255);
     border-radius: 13px;
-    height: 600px;
+    height: 400px;
     width: 500px;
 }
 .opciones{
@@ -70,6 +72,18 @@ body {
     border-radius: 10px;
     width: 75px;
     height: 75px;
+}
+.fotoContacto{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+.masDet{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background: linear-gradient(90deg, rgba(193,220,255,1) 0%, rgba(239,255,177,1) 100%);
+    cursor: pointer;
 }
 .botonesOpB{
     color: black;
