@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
@@ -9,20 +9,23 @@
 <body>
     <div class="head">
         <header>
-            <h1>Página Login</h1>
-            <h2>¡Bienvenido/a a nuestra Agenda Web, por favor ingrese sus datos!</h2>
+            <h1 class="tituloMain">Página Login</h1>
+            <h2 class="subtituloMain">¡Bienvenido/a a nuestra Agenda Web, por favor ingrese sus datos!</h2>
         </header>
     </div>
-    <div>
-        <div>
+    <div class="login">
+        <div class="tituloLogin">
             <h2>Login</h2>
         </div>
-        <div>
+        <div class="formulario">
             <form>
-                <h2></h2>
-                <input>
-                <h2></h2>
-                <input>
+                <h3 class="correoC">Correo</h3>
+                <input type="text" class="input" placeholder="Tu correo" name="correo" required> 
+                <h3 class="correoC">Contraseña</h3>
+                <input type="password" class="input" placeholder="Tu contraseña" name="contraseña" required>
+                <div class="enviar">
+                    <button class="inicioS">Inicio de sesión</button>
+                </div>
             </form>
         </div>
     </div>
