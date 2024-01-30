@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(90deg, rgba(255, 135, 202, 1) 0%, rgba(172, 250, 255, 1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    border-radius: 15px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contentFlex {
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.contacto {
+    background-color: rgb(255, 255, 255);
+    border: 8px solid rgb(176, 176, 255);
+    border-radius: 13px;
+    height: 600px;
+    width: 500px;
+}
+.opciones{
+    background-color: rgb(255, 255, 255);
+    border: 8px solid rgb(176, 176, 255);
+    border-radius: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 150px;
+}
+#contacto1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#contacto2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#contacto3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#contacto4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#contacto4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
