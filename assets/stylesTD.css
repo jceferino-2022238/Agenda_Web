@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgba(154,151,255,1) 0%, rgba(255,126,126,1) 100%);
+}
+.head {
+    border-radius: 15px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.crud{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.formularioC{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 800px;
+    margin-left: 150px;
+}
+.inputC{
+    margin-left: 50px;
+    width: 300px;
+}
+.agregar{
+    background-color: rgb(212, 212, 212);
+    margin-top: 20px;
+}
+.tablaD {
+    margin: 20px;
+}
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+.tabla th, .tabla td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.tabla th {
+    background-color: #f2f2f2;
+}
+.botonesFunciones {
+    display: inline-block;
+    padding: 6px 10px;
+    margin-right: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.botonesFunciones:hover {
+    background-color: #45a049;
+}

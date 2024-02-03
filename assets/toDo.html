@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./stylesTD.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo List</title>
 </head>
 <body>
-    
+    <div class="head">
+        <header>
+            <h1>CRUD ToDoList</h1>
+        </header>
+    </div>
+    <div class="crud">
+        <form action="" id="formulario" class="formularioC">
+            <div>
+                <label for="nombreTarea">Nombre de la Tarea</label>
+                <input class="inputC" id="nombreTarea" type="text" placeholder="Ingrese el Nombre de su Tarea">
+            </div>
+            <div>
+                <label for="descripcionTarea">Descripcion de la Tarea</label>
+                <input class="inputC" id="descTarea" type="text" placeholder="Ingrese la Descripcion de su Tarea">
+            </div>
+            <div>
+                <label for="prioridadTarea">Prioridad de la tarea</label>
+                <input class="inputC" id="prioridadTarea" type="number" placeholder="Ingrese la Prioridad de su Tarea">
+            </div>
+            <div>
+                <input class="botonAgregar" type="submit" value="Agregar">
+            </div>
+        </form>
+        <div class="tablaD">
+            <table class="tabla">
+                <thead>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Prioridad</th>
+                    <th>Acciones</th>
+                </thead>
+                <tbody id="listaTD">
+                    <tr>
+                        <td>Hacer aseo</td>
+                        <td>Limpiar las áreas del hogar</td>
+                        <td>1</td>
+                        <td>
+                            <a href="#" class="botonesFunciones">Editar</a>
+                            <a href="#" class="botonesFunciones">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./logicaTD.js"></script>
 </body>
 </html>
