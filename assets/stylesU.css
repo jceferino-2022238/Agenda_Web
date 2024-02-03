@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgba(154,151,255,1) 0%, rgba(255,110,205,1) 100%);
+}
+.head{
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+}
