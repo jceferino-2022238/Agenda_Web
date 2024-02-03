@@ -11,6 +11,9 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
     margin-left: 50px;
     margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .crud{
     justify-content: center;
@@ -22,13 +25,14 @@ body{
     padding: 20px;
     border-radius: 20px;
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .formularioC{
     background-color: white;
     padding: 20px;
     border-radius: 20px;
-    width: 800px;
-    margin-left: 150px;
+    width: 700px;
 }
 .inputC{
     margin-left: 50px;

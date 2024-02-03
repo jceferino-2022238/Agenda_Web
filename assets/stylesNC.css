@@ -5,11 +5,14 @@ body{
 .head{
     align-items: center;
     text-align: center;
+    justify-content: center;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.5);
     margin-left: 50px;
     margin-right: 50px;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .nuevoC{
     margin-top: 30px;

@@ -8,10 +8,14 @@ body {
     align-content: center;
     align-items: center;
     text-align: center;
+    justify-content: center;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     margin-left: 50px;
     margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .opcionesContactosMain{
@@ -41,6 +45,8 @@ body {
     border-radius: 15px;
     row-gap: 50px;
     column-gap: 50px;
+
+    flex-wrap: wrap;
 }
 
 .contacto {

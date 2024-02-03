@@ -9,6 +9,9 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
     margin-left: 50px;
     margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .infoCon{
     border-radius: 10px;
@@ -18,7 +21,7 @@ body{
     display: grid;
     width: 50%;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 335px;
     row-gap: 20px;
 }
 #nombreContacto{
