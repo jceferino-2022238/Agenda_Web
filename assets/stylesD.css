@@ -39,6 +39,9 @@ body{
 }
 #imagenContacto{
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
 }
 .imagenConD{
     height: 150px;
